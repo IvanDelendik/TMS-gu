@@ -1,8 +1,31 @@
-.header {
-    background-image: url (app/images/main-image-bg.png);
+.page {
+    background-image: url(../images/main-image-bg.png);
     background-size: cover;
-    height: 300px;
 }
-div {
-    color: aqua;
+
+.title {
+    @include font-montserrat-title
+}
+
+.subtitle {
+    @include font-montserrat-subtitle
+}
+
+.slogan {
+    @include font-montserrat-slogan
+}
+
+.body {
+    text-align: center;
+
+    &__home {
+        padding-top: 134px;
+        padding-bottom: 134px;
+    }
+}
+
+.subtitle {
+    &__home {
+        margin: 8px 0px;
+    }
 }

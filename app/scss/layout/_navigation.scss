@@ -1,0 +1,9 @@
+.navigation {
+    &__item {
+        @include font-montserrat-text ();
+
+        &:not(:last-child) {
+            margin-right: 41px;
+        }
+    }
+}
