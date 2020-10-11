@@ -11,7 +11,7 @@
   <body>
     <div class="page">
       <header class="header">
-        <a href="index.html" class="logo logo__item"
+        <a href="index.html" class="logo header__logo"
           ><img src="../images/logo.svg" alt="logo"
         /></a>
         <div class="navigation">
@@ -23,23 +23,26 @@
           <a href="" class="navigation__item">Docs/Components</a>
         </div>
         <div class="header__container">
-          <div class="account account__item">
-            <a href="" class="account__avatar"
-              ><img src="../images/avatar.svg" alt="avatar"
-            /></a>
-            <a href="" class="account__login account__login-elem">My Account</a>
-          </div>
-          <a href="" class="favorites"
-            ><img src="../images/favorites.svg" alt="favorites"
-          /></a>
-          <a href="" class="basket basket__elem"
-            ><img src="../images/basket.svg" alt="basket"
-          /></a>
+          <a href="" class="header__account">
+            <img
+              src="../images/avatar.svg"
+              alt="avatar"
+              class="header__avatar"
+            />
+            <span class="header__login">My Account</span>
+          </a>
+          <a href="" class="favorites">
+            <img src="../images/favorites.svg" alt="favorites" />
+          </a>
+          <a href="" class="header__backet">
+            <img src="../images/backet.svg" alt="backet" />
+            <span class="backet__item">1</span>
+          </a>
         </div>
       </header>
       <div class="body body__home">
-        <h2 class="title">SUMMER 2020</h2>
-        <h1 class="subtitle subtitle__home">New Collection</h1>
+        <h1 class="title">SUMMER 2020</h1>
+        <h2 class="subtitle subtitle__home">New Collection</h2>
         <h3 class="slogan">Find The Perfect style for you</h3>
         <button class="button button__shop">Shop Now</button>
       </div>

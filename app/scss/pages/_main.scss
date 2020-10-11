@@ -1,18 +1,18 @@
 .page {
-    background-image: url(../images/main-image-bg.png);
+    background-image: url(../../images/main-image-bg.png);
     background-size: cover;
 }
 
 .title {
-    @include font-montserrat-title
+    @include font-montserrat-title;
 }
 
 .subtitle {
-    @include font-montserrat-subtitle
+    @include font-montserrat-subtitle;
 }
 
 .slogan {
-    @include font-montserrat-slogan
+    @include font-montserrat-slogan;
 }
 
 .body {
