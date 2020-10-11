@@ -1,15 +1,11 @@
 .account {
-    display: flex;
-    align-items: center;
 
     &__item {
-        margin-left: 126px;
-        margin-right: 43px;
+        // margin-right: 43px;
 
     }
 
     &__avatar {
-        display: flex;
         width: 56px;
         height: 56px;
     }
@@ -18,7 +14,7 @@
         @include font-montserrat-text ();
 
         &-elem {
-            margin-left: 12px;
+            // margin-left: 12px;
         }
     }
 }

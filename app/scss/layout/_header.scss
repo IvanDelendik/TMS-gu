@@ -3,4 +3,10 @@
     flex-direction: row;
     align-items: center;
     padding: 32px 60.5px 36px 67.5px;
+
+    &__container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end; 
+    }
 }
