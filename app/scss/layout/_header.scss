@@ -21,7 +21,8 @@
 
     &__avatar {       
         width: 56px;
-        height: 56px;}
+        height: 56px;
+    }
 
     &__login {
         @include font-montserrat-text ();
