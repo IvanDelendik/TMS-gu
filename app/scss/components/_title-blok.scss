@@ -1,0 +1,24 @@
+.title-section {
+    text-align: center;
+
+    &__home {
+        padding-top: 134px;
+        padding-bottom: 134px;
+    }
+
+    &__name {
+        @include font-montserrat-title;
+    }
+
+    &__subtitle {
+        @include font-montserrat-subtitle;
+
+        &-margin {
+            margin: 8px 0px;
+        }
+    }
+
+    &__slogan {
+        @include font-montserrat-slogan;
+    }
+}
