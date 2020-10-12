@@ -1,4 +1,64 @@
-.main-page {
+.main {
+
+    &-page{
     background-image: url(../images/main-image-bg.png);
     background-size: cover;
+    }
+
+    &-menu {   
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 29px 40px;
+
+        
+
+        &--wrapper { 
+            padding: 50px 155px;  
+        }
+        
+        &-container {
+            font-size: 0px;
+            position: relative;
+
+            &__img {
+                font-size: 0px;
+
+            }
+
+            &:nth-child(3) {
+                // height: 468px;
+                // width: 310px;
+                grid-column: 2;
+                grid-row: 1 / 3;
+                font-size: 0px;
+
+            }
+
+            &__button {
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%, -50%);
+                @include font-montserrat-button;
+                color: #FFFFFF;
+                align-self: center;
+                padding: 15px 30px;
+                background: rgba(0, 0, 0, 0.1);
+                border: 1px solid #FFFFFF;
+            }
+        }
+    }
+
+    &-featured {
+
+        &--wrapper {
+            padding: 40px 176px 30px;
+        }
+
+        &-title {
+            @include font-montserrat-title;
+            color: #252B42;
+            text-align: center;
+        }
+    }
 }
