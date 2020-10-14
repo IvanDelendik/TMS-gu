@@ -10,13 +10,11 @@
         grid-template-columns: 370px 310px 370px;
         grid-gap: 29px 40px;
 
-        &--wrapper {
+        &-wrapper {
             max-width: 1130px;
             margin: 0 auto;
             padding-top: 50px;
             padding-bottom: 50px;
-            // margin-left: 155px;
-            // margin-right: 155px;
         }
         
         &-container {
@@ -55,7 +53,7 @@
 
     &-featured {
 
-        &--wrapper {
+        &-wrapper {
             padding: 40px;
             padding-bottom: 30px;
         }
