@@ -13,15 +13,6 @@ $stolzl: "../fonts/Stolzl";
 	url("#{$stolzl}/Stolzl-Regular.svg#Stolzl-Regular") format("svg");
 }
 
-@mixin stolzl-regular {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font: {
-		family: "Stolzl";
-		weight: 400;
-	}
-}
-
 // Stolzl medium
 @font-face {
 	font-family: "Stolzl";
@@ -35,15 +26,6 @@ $stolzl: "../fonts/Stolzl";
 	url("#{$stolzl}/Stolzl-Medium.svg#Stolzl-Medium") format("svg");
 }
 
-@mixin stolzl-medium {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font: {
-		family: "Stolzl";
-		weight: 500;
-	}
-}
-
 // Stolzl bold
 @font-face {
 	font-family: "Stolzl";
@@ -55,11 +37,4 @@ $stolzl: "../fonts/Stolzl";
 	url("#{$stolzl}/Stolzl-Bold.otf") format("opentype"),
 	url("#{$stolzl}/Stolzl-Bold.ttf") format("truetype"),
 	url("#{$stolzl}/Stolzl-Bold.svg#Stolzl-Bold") format("svg");
-}
-
-@mixin stolzl-bold {
-	font: {
-		family: "Stolzl";
-		weight: 700;
-	}
 }
