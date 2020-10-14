@@ -61,12 +61,13 @@
         }
 
         &-title {
-            @include font-montserrat-title;
+            @include font-montserrat-bold;
             color: #252B42;
             text-align: center;
         }
 
         &-menu {
+
             text-align: center;
             margin-top: 25px;
             margin-bottom: 60px;

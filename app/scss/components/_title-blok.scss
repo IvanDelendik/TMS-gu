@@ -7,11 +7,11 @@
     }
 
     &__name {
-        @include font-montserrat-title;
+        @include font-montserrat-bold;
     }
 
     &__subtitle {
-        @include font-montserrat-subtitle;
+        @include font-montserrat-extrabold;
 
         &-margin {
             margin: 8px 0px;
@@ -19,6 +19,6 @@
     }
 
     &__slogan {
-        @include font-montserrat-slogan;
+        @include font-montserrat-medium;
     }
 }

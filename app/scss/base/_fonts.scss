@@ -1,40 +1,44 @@
-$stolzl: "../fonts/Stolzl";
+$montserrat: "../fonts/Montserrat";
 
-// Stolzl regular
+// Montserrat regular
 @font-face {
-	font-family: "Stolzl";
+	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 400;
-	src: url("#{$stolzl}/Stolzl-Regular.eot");
-	src: url("#{$stolzl}/Stolzl-Regular.woff2") format("woff2"),
-	url("#{$stolzl}/Stolzl-Regular.woff") format("woff"),
-	url("#{$stolzl}/Stolzl-Regular.otf") format("opentype"),
-	url("#{$stolzl}/Stolzl-Regular.ttf") format("truetype"),
-	url("#{$stolzl}/Stolzl-Regular.svg#Stolzl-Regular") format("svg");
+	src: url("#{$montserrat}/Montserrat-Regular.ttf") format("truetype");
 }
 
-// Stolzl medium
+// Montserrat medium
 @font-face {
-	font-family: "Stolzl";
+	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 500;
-	src: url("#{$stolzl}/Stolzl-Medium.eot");
-	src: url("#{$stolzl}/Stolzl-Medium.woff2") format("woff2"),
-	url("#{$stolzl}/Stolzl-Medium.woff") format("woff"),
-	url("#{$stolzl}/Stolzl-Bold.otf") format("opentype"),
-	url("#{$stolzl}/Stolzl-Medium.ttf") format("truetype"),
-	url("#{$stolzl}/Stolzl-Medium.svg#Stolzl-Medium") format("svg");
+	src: url("#{$montserrat}/Montserrat-Medium.ttf") format("truetype");
 }
 
-// Stolzl bold
+// Montserrat Semibold
 @font-face {
-	font-family: "Stolzl";
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 600;
+	src: url("#{$montserrat}/Montserrat-SemiBold.ttf") format("truetype"),
+
+}
+
+// Montserrat bold
+@font-face {
+	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 700;
-	src: url("#{$stolzl}/Stolzl-Bold.eot");
-	src: url("#{$stolzl}/Stolzl-Bold.woff2") format("woff2"),
-	url("#{$stolzl}/Stolzl-Bold.woff") format("woff"),
-	url("#{$stolzl}/Stolzl-Bold.otf") format("opentype"),
-	url("#{$stolzl}/Stolzl-Bold.ttf") format("truetype"),
-	url("#{$stolzl}/Stolzl-Bold.svg#Stolzl-Bold") format("svg");
+	src: url("#{$montserrat}/Montserrat-Bold.ttf") format("truetype"),
+
+}
+
+// Montserrat Extrabold
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 800;
+	src: url("#{$montserrat}/Montserrat-ExtraBold.ttf") format("truetype"),
+
 }

@@ -104,19 +104,19 @@ P.S. Шрифты в разных форматах нужны для норма�
 
 [Online font converter](https://onlinefontconverter.com/)
 
-    $stolzl: "../fonts/stolzl";
+    $montserrat: "../fonts/stolzl";
     
     // stolzl regular
     @font-face {
     	font-family: "stolzl";
     	font-style: normal;
     	font-weight: 400;
-    	src: url("#{$stolzl}/Stolzl-Regular.eot");
-    	src: url("#{$stolzl}/Stolzl-Regular.woff2") format("woff2"),
-    	url("#{$stolzl}/Stolzl-Regular.woff") format("woff"),
-    	url("#{$stolzl}/Stolzl-Regular.otf") format("opentype"),
-    	url("#{$stolzl}/Stolzl-Regular.ttf") format("truetype"),
-    	url("#{$stolzl}/Stolzl-Regular.svg#Stolzl-Regular") format("svg");
+    	src: url("#{$montserrat}/Stolzl-Regular.eot");
+    	src: url("#{$montserrat}/Stolzl-Regular.woff2") format("woff2"),
+    	url("#{$montserrat}/Stolzl-Regular.woff") format("woff"),
+    	url("#{$montserrat}/Stolzl-Regular.otf") format("opentype"),
+    	url("#{$montserrat}/Stolzl-Regular.ttf") format("truetype"),
+    	url("#{$montserrat}/Stolzl-Regular.svg#Stolzl-Regular") format("svg");
     }
 
 Миксин на шрифт:

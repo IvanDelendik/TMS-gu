@@ -25,7 +25,7 @@
     }
 
     &__login {
-        @include font-montserrat-text ();
+        @include font-montserrat-semibold ();
         margin-left: 12px;
     }
 
