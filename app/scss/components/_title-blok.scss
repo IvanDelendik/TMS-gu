@@ -22,3 +22,9 @@
         @include font-montserrat-medium;
     }
 }
+
+.title {
+    @include font-montserrat-bold;
+    color: #252B42;
+    text-align: center;
+}

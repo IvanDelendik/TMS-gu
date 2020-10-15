@@ -17,5 +17,8 @@
 @import "components/favorites";
 @import "components/backet";
 @import "components/title-blok";
+@import "components/_product-card";
 
-@import "pages/main";
+@import "pages/main/main-page";
+@import "pages/main/main-menu";
+@import "pages/main/main-featured";
