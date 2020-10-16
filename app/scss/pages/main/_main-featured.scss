@@ -19,10 +19,6 @@
                 position: relative;
                 color: #737373;
 
-                &:nth-child(1) {
-                    color: #2091F9;
-                }
-
                 &:not(:last-child) {
                     margin-right: 37.25px;
                 }
@@ -36,6 +32,7 @@
                     left: 50%;
                     transform: translateX(-50%);
                     bottom: -8px;
+                    opacity: 0px;
                 }
             }
         }
