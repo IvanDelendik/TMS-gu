@@ -17,7 +17,7 @@
 
         &-menu {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: repeat(4, 349px);
             grid-column-gap: 25px;
             overflow: hidden;
 
@@ -83,6 +83,8 @@
                 height: 15px;
                 border-radius: 35px;
                 background: rgba(255, 255, 255, 0.1);
+                border: none;
+
 
                     &:not(:last-child) {
                     margin-right: 5px;
