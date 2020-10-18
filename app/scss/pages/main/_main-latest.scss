@@ -1,0 +1,47 @@
+.main {
+
+    &-latest {
+
+        &-wrapper {
+            padding-top: 90px;
+            padding-bottom: 81px;
+        }
+
+        &-title {
+            margin-bottom: 60px;
+        }
+
+        &-product-card {
+            grid-row-gap: 50px;
+            max-width: 1080px;
+
+            &__blok {
+                width: 240px;
+            }
+
+            &-img {
+                height: 180px;
+
+                &__elem {
+                    border-radius: 0px;
+                    object-fit: cover;
+                }
+            }
+            
+            &-box {
+                @include font-montserrat-bold;
+                color: #252B42;
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+
+            &__price {
+                font-size: 16px;
+                line-height: 28px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

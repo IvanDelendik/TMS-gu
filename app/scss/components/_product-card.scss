@@ -40,18 +40,14 @@
             }
             
             &-box {
-                
                 display: flex;
+                @include font-montserrat-regular;
+                margin-top: 14px;
+                margin-bottom: 14px;
+                flex-direction: column;
 
-                &-base {
-                    @include font-montserrat-regular;
-                    margin-top: 14px;
-                    margin-bottom: 14px;
-                    flex-direction: column;
-
-                    &__marking {
-                        opacity: 0.5;
-                    }
+                &__marking {
+                    opacity: 0.5;
                 }
             }
 
@@ -61,6 +57,8 @@
             }
 
             &-color {
+                margin-top: 14px;
+                margin-bottom: 14px;
                 
                 &__elem {
                     width: 30px;
@@ -89,11 +87,6 @@
 
                 &--black {
                     background: #252B42;
-                }
-
-                &-base {
-                    margin-top: 14px;
-                    margin-bottom: 14px;
                 }
             }
 
