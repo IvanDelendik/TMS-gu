@@ -4,17 +4,31 @@
     &__home {
         padding-top: 134px;
         padding-bottom: 134px;
+
+        @include screen-max($md) {
+            padding-top: 180px;
+            padding-bottom: 180px;
+        }
     }
 
     &__name {
         @include font-montserrat-bold;
+
+        @include screen-max($md) {
+            font-size: 16px;
+            line-height: 24px;
+        }
     }
 
     &__subtitle {
         @include font-montserrat-extrabold;
+        margin: 8px 0px;
+        
+        @include screen-max($md) {
+            font-size: 38px;
+            line-height: 47px;
+            margin: 6px 0px;
 
-        &-margin {
-            margin: 8px 0px;
         }
     }
 

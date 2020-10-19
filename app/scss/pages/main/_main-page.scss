@@ -3,5 +3,10 @@
     &-page{
         background-image: url(../images/main-image-bg.png);
         background-size: cover;
-        }
+
+        // @include screen-max($hd) {
+        //     background-image: url(../images/main-image-bg-mobile.png);
+        //     background-size: cover;
+        // }
+    }
 }

@@ -15,12 +15,14 @@
           ><img src="../images/logo.svg" alt="logo" />
         </a>
         <div class="navigation">
-          <a href="" class="navigation__item">Home</a>
-          <a href="" class="navigation__item">Shop</a>
-          <a href="" class="navigation__item">Account</a>
-          <a href="" class="navigation__item">Pages</a>
-          <a href="" class="navigation__item">Blog</a>
-          <a href="" class="navigation__item">Docs/Components</a>
+          <a href="" class="navigation__item navigation__item--none">Home</a>
+          <a href="" class="navigation__item navigation__item--none">Shop</a>
+          <a href="" class="navigation__item navigation__item--none">Account</a>
+          <a href="" class="navigation__item navigation__item--none">Pages</a>
+          <a href="" class="navigation__item navigation__item--none">Blog</a>
+          <a href="" class="navigation__item navigation__item--none"
+            >Docs/Components</a
+          >
         </div>
         <div class="header__container">
           <a href="" class="header__account">
@@ -31,7 +33,7 @@
             />
             <span class="header__login">My Account</span>
           </a>
-          <a href="" class="favorites">
+          <a href="" class="favorites header-favorites">
             <img src="../images/favorites.svg" alt="favorites" />
           </a>
           <a href="" class="header__backet">
@@ -39,10 +41,24 @@
             <span class="backet__item">1</span>
           </a>
         </div>
+        <button class="header-menu">
+          <svg
+            width="28"
+            height="17"
+            viewBox="0 0 28 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.666992 0.934814H27.3337V3.60148H0.666992V0.934814ZM7.33366 7.60148H27.3337V10.2681H7.33366V7.60148ZM15.667 14.2681H27.3337V16.9348H15.667V14.2681Z"
+              fill="white"
+            />
+          </svg>
+        </button>
       </header>
       <div class="title-section title-section__home">
         <h1 class="title-section__name">SUMMER 2020</h1>
-        <h2 class="title-section__subtitle subtitle-margin">New Collection</h2>
+        <h2 class="title-section__subtitle">New Collection</h2>
         <h3 class="title-section__slogan">Find The Perfect style for you</h3>
         <button class="button button-title">Shop Now</button>
       </div>
@@ -257,13 +273,13 @@
     </div>
     <div class="main-latest-wrapper">
       <h1 class="title main-latest-title">Latest Products</h1>
-      <div class="product-card main-latest-product-card">
-        <div class="product-card__blok main-latest-product-card__blok">
-          <div class="product-card-img main-latest-product-card-img">
+      <div class="product-card product-card-small">
+        <div class="product-card__blok product-card-small__blok">
+          <div class="product-card-img product-card-small-img">
             <img
               src="../images/latest_products/latest_products_first.jpg"
               alt="first"
-              class="product-card-img__elem main-latest-product-card-img__elem"
+              class="product-card-img__elem product-card-small-img__elem"
             />
             <img
               src="../images/product-favorites.svg"
@@ -271,13 +287,11 @@
               class="product-card-img__favorites"
             />
           </div>
-          <div class="product-card-box main-latest-product-card-box">
+          <div class="product-card-box product-card-small-box">
             <p class="product-card-box__name">Men's Essential Tee</p>
             <span class="product-card-box__marking">(Black)</span>
           </div>
-          <p class="product-card__price main-latest-product-card__price">
-            $32.00
-          </p>
+          <p class="product-card__price product-card-small__price">$32.00</p>
           <div class="product-card-size">
             <button class="product-card-size__elem">XL</button>
             <button class="product-card-size__elem">L</button>
@@ -285,12 +299,12 @@
             <button class="product-card-size__elem">S</button>
           </div>
         </div>
-        <div class="product-card__blok main-latest-product-card__blok">
-          <div class="product-card-img main-latest-product-card-img">
+        <div class="product-card__blok product-card-small__blok">
+          <div class="product-card-img product-card-small-img">
             <img
               src="../images/latest_products/latest_products_second.jpg"
               alt="first"
-              class="product-card-img__elem main-latest-product-card-img__elem"
+              class="product-card-img__elem product-card-small-img__elem"
             />
             <img
               src="../images/product-favorites.svg"
@@ -298,13 +312,11 @@
               class="product-card-img__favorites"
             />
           </div>
-          <div class="product-card-box main-latest-product-card-box">
+          <div class="product-card-box product-card-small-box">
             <p class="product-card-box__name">Men's Essential Tee</p>
             <span class="product-card-box__marking">(Black)</span>
           </div>
-          <p class="product-card__price main-latest-product-card__price">
-            $32.00
-          </p>
+          <p class="product-card__price product-card-small__price">$32.00</p>
           <div class="product-card-size">
             <button class="product-card-size__elem">XL</button>
             <button class="product-card-size__elem">L</button>
@@ -312,12 +324,12 @@
             <button class="product-card-size__elem">S</button>
           </div>
         </div>
-        <div class="product-card__blok main-latest-product-card__blok">
-          <div class="product-card-img main-latest-product-card-img">
+        <div class="product-card__blok product-card-small__blok">
+          <div class="product-card-img product-card-small-img">
             <img
               src="../images/latest_products/latest_products_third.jpg"
               alt="first"
-              class="product-card-img__elem main-latest-product-card-img__elem"
+              class="product-card-img__elem product-card-small-img__elem"
             />
             <img
               src="../images/product-favorites.svg"
@@ -325,13 +337,11 @@
               class="product-card-img__favorites"
             />
           </div>
-          <div class="product-card-box main-latest-product-card-box">
+          <div class="product-card-box product-card-small-box">
             <p class="product-card-box__name">Men's Essential Tee</p>
             <span class="product-card-box__marking">(Black)</span>
           </div>
-          <p class="product-card__price main-latest-product-card__price">
-            $32.00
-          </p>
+          <p class="product-card__price product-card-small__price">$32.00</p>
           <div class="product-card-size">
             <button class="product-card-size__elem">XL</button>
             <button class="product-card-size__elem">L</button>
@@ -339,12 +349,12 @@
             <button class="product-card-size__elem">S</button>
           </div>
         </div>
-        <div class="product-card__blok main-latest-product-card__blok">
-          <div class="product-card-img main-latest-product-card-img">
+        <div class="product-card__blok product-card-small__blok">
+          <div class="product-card-img product-card-small-img">
             <img
               src="../images/latest_products/latest_products_fourth.jpg"
               alt="first"
-              class="product-card-img__elem main-latest-product-card-img__elem"
+              class="product-card-img__elem product-card-small-img__elem"
             />
             <img
               src="../images/product-favorites.svg"
@@ -352,13 +362,11 @@
               class="product-card-img__favorites"
             />
           </div>
-          <div class="product-card-box main-latest-product-card-box">
+          <div class="product-card-box product-card-small-box">
             <p class="product-card-box__name">Men's Essential Tee</p>
             <span class="product-card-box__marking">(Black)</span>
           </div>
-          <p class="product-card__price main-latest-product-card__price">
-            $32.00
-          </p>
+          <p class="product-card__price product-card-small__price">$32.00</p>
           <div class="product-card-size">
             <button class="product-card-size__elem">XL</button>
             <button class="product-card-size__elem">L</button>
@@ -366,12 +374,12 @@
             <button class="product-card-size__elem">S</button>
           </div>
         </div>
-        <div class="product-card__blok main-latest-product-card__blok">
-          <div class="product-card-img main-latest-product-card-img">
+        <div class="product-card__blok product-card-small__blok">
+          <div class="product-card-img product-card-small-img">
             <img
               src="../images/latest_products/latest_products_fifth.jpg"
               alt="first"
-              class="product-card-img__elem main-latest-product-card-img__elem"
+              class="product-card-img__elem product-card-small-img__elem"
             />
             <img
               src="../images/product-favorites.svg"
@@ -379,13 +387,11 @@
               class="product-card-img__favorites"
             />
           </div>
-          <div class="product-card-box main-latest-product-card-box">
+          <div class="product-card-box product-card-small-box">
             <p class="product-card-box__name">Men's Essential Tee</p>
             <span class="product-card-box__marking">(Black)</span>
           </div>
-          <p class="product-card__price main-latest-product-card__price">
-            $32.00
-          </p>
+          <p class="product-card__price product-card-small__price">$32.00</p>
           <div class="product-card-size">
             <button class="product-card-size__elem">XL</button>
             <button class="product-card-size__elem">L</button>
@@ -393,12 +399,12 @@
             <button class="product-card-size__elem">S</button>
           </div>
         </div>
-        <div class="product-card__blok main-latest-product-card__blok">
-          <div class="product-card-img main-latest-product-card-img">
+        <div class="product-card__blok product-card-small__blok">
+          <div class="product-card-img product-card-small-img">
             <img
               src="../images/latest_products/latest_products_sixth.jpg"
               alt="first"
-              class="product-card-img__elem main-latest-product-card-img__elem"
+              class="product-card-img__elem product-card-small-img__elem"
             />
             <img
               src="../images/product-favorites.svg"
@@ -406,13 +412,11 @@
               class="product-card-img__favorites"
             />
           </div>
-          <div class="product-card-box main-latest-product-card-box">
+          <div class="product-card-box product-card-small-box">
             <p class="product-card-box__name">Men's Essential Tee</p>
             <span class="product-card-box__marking">(Black)</span>
           </div>
-          <p class="product-card__price main-latest-product-card__price">
-            $32.00
-          </p>
+          <p class="product-card__price product-card-small__price">$32.00</p>
           <div class="product-card-size">
             <button class="product-card-size__elem">XL</button>
             <button class="product-card-size__elem">L</button>
@@ -420,12 +424,12 @@
             <button class="product-card-size__elem">S</button>
           </div>
         </div>
-        <div class="product-card__blok main-latest-product-card__blok">
-          <div class="product-card-img main-latest-product-card-img">
+        <div class="product-card__blok product-card-small__blok">
+          <div class="product-card-img product-card-small-img">
             <img
               src="../images/latest_products/latest_products_seventh.jpg"
               alt="first"
-              class="product-card-img__elem main-latest-product-card-img__elem"
+              class="product-card-img__elem product-card-small-img__elem"
             />
             <img
               src="../images/product-favorites.svg"
@@ -433,13 +437,11 @@
               class="product-card-img__favorites"
             />
           </div>
-          <div class="product-card-box main-latest-product-card-box">
+          <div class="product-card-box product-card-small-box">
             <p class="product-card-box__name">Men's Essential Tee</p>
             <span class="product-card-box__marking">(Black)</span>
           </div>
-          <p class="product-card__price main-latest-product-card__price">
-            $32.00
-          </p>
+          <p class="product-card__price product-card-small__price">$32.00</p>
           <div class="product-card-size">
             <button class="product-card-size__elem">XL</button>
             <button class="product-card-size__elem">L</button>
@@ -447,12 +449,12 @@
             <button class="product-card-size__elem">S</button>
           </div>
         </div>
-        <div class="product-card__blok main-latest-product-card__blok">
-          <div class="product-card-img main-latest-product-card-img">
+        <div class="product-card__blok product-card-small__blok">
+          <div class="product-card-img product-card-small-img">
             <img
               src="../images/latest_products/latest_products_eighth.jpg"
               alt="first"
-              class="product-card-img__elem main-latest-product-card-img__elem"
+              class="product-card-img__elem product-card-small-img__elem"
             />
             <img
               src="../images/product-favorites.svg"
@@ -460,13 +462,11 @@
               class="product-card-img__favorites"
             />
           </div>
-          <div class="product-card-box main-latest-product-card-box">
+          <div class="product-card-box product-card-small-box">
             <p class="product-card-box__name">Men's Essential Tee</p>
             <span class="product-card-box__marking">(Black)</span>
           </div>
-          <p class="product-card__price main-latest-product-card__price">
-            $32.00
-          </p>
+          <p class="product-card__price product-card-small__price">$32.00</p>
           <div class="product-card-size">
             <button class="product-card-size__elem">XL</button>
             <button class="product-card-size__elem">L</button>
@@ -579,6 +579,17 @@
           />
           <span class="main-instagram-menu__button">Casual</span>
         </a>
+        <a
+          href=""
+          class="main-instagram-menu__elem main-instagram-menu__elem--adaptive"
+        >
+          <img
+            src="../images/instagram/instagram_mobile.jpg"
+            alt="main-instagram-icon"
+            class="main-instagram-menu__img"
+          />
+          <span class="main-instagram-menu__button">Music</span>
+        </a>
       </div>
       <div class="main-instagram-skrol">
         <button class="main-instagram-skrol__arrow">
@@ -588,6 +599,12 @@
           />
         </button>
         <div class="main-instagram-skrol-point">
+          <button
+            class="main-instagram-skrol-point__elem main-instagram-skrol-point__elem--adaptive"
+          ></button>
+          <button
+            class="main-instagram-skrol-point__elem main-instagram-skrol-point__elem--adaptive"
+          ></button>
           <button class="main-instagram-skrol-point__elem"></button>
           <button class="main-instagram-skrol-point__elem"></button>
           <button class="main-instagram-skrol-point__elem"></button>
@@ -607,12 +624,18 @@
         ><img src="../images/logo.svg" alt="logo" />
       </a>
       <div class="navigation">
-        <a href="" class="navigation__item">Home</a>
-        <a href="" class="navigation__item">Shop</a>
-        <a href="" class="navigation__item">Account</a>
-        <a href="" class="navigation__item">Pages</a>
-        <a href="" class="navigation__item">Blog</a>
-        <a href="" class="navigation__item">Docs/Components</a>
+        <a href="" class="navigation__item navigation-footer--adaptive">Home</a>
+        <a href="" class="navigation__item navigation-footer--adaptive">Shop</a>
+        <a href="" class="navigation__item navigation-footer--adaptive"
+          >Account</a
+        >
+        <a href="" class="navigation__item navigation-footer--adaptive"
+          >Pages</a
+        >
+        <a href="" class="navigation__item navigation-footer--adaptive">Blog</a>
+        <a href="" class="navigation__item navigation-footer--adaptive"
+          >Docs/Components</a
+        >
       </div>
       <div class="footer-container">
         <a href="" class="footer-container__img">

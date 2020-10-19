@@ -21,12 +21,31 @@
             grid-column-gap: 25px;
             overflow: hidden;
 
+            @include screen-max($md) {
+                grid-template-columns: 1fr;
+            }
+
             &__elem {
                 position: relative;
+
+                @include screen-max($md) {
+                    display: none;
+                }
+
+                &--adaptive {
+                    display: none;
+
+                    @include screen-max($md) {
+                        display: flex;
+                        max-width: 744px;
+                        margin-left: 12px;
+                        margin-right: 12px;
+                    }
+                }
             }
 
             &__img {
-                width: 349px;
+                width: 100%;
                 height: 249px;
                 border-radius: 16px;
                 object-fit: cover;
@@ -67,6 +86,10 @@
                 margin-right: 30px;
                 margin-left: 30px;
 
+                @include screen-max($md) {
+                    display: none;
+                }
+
                 &--revers {
                     transform: rotate(180deg);
                 }
@@ -85,6 +108,13 @@
                 background: rgba(255, 255, 255, 0.1);
                 border: none;
 
+                &--adaptive {
+                    display: none;
+                    
+                    @include screen-max($md) {
+                        display: flex;
+                    }
+                }
 
                     &:not(:last-child) {
                     margin-right: 5px;

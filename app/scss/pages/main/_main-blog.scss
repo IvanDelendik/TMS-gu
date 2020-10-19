@@ -17,6 +17,13 @@
             grid-column-gap: 40px;
             margin: 0 auto;
 
+            @include screen-max($hd) {
+                max-width: 331px;
+                grid-template-columns: 1fr;
+
+
+            }
+
             &__container {
                 max-width: 331px;
                 background: #FFFFFF;
