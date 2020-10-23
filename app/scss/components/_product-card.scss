@@ -178,5 +178,38 @@
                     margin-bottom: 10px;
                 }
             }
+
+            &-medium {
+                grid-row-gap: 40px;
+                grid-column-gap: 45px;
+                max-width: 960px;
+    
+                &__blok {
+                    width: 210px;
+                }
+    
+                &-img {
+                    height: 180px;
+    
+                    &__elem {
+                        border-radius: 0px;
+                        object-fit: cover;
+                    }
+                }
+                
+                &-box {
+                    @include font-montserrat-bold;
+                    color: #252B42;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+    
+                &__price {
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+            }
         }
 }
