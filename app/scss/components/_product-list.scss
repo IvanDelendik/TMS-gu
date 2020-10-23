@@ -1,0 +1,53 @@
+.product {
+
+    &-list {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+
+        &-text {
+            @include font-montserrat-medium;
+            font-size: 15px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            color: #737373;
+            margin-right: 17px;
+        }
+
+        &-select {
+            padding: 17px 20px;
+            background: #FFFFFF;
+            border: 1px solid #DCDCDC;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            @include font-montserrat-medium;
+            font-size: 15px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            color: #252B42;
+        }
+
+        &-display {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+
+            &-table {
+                width: 53px;
+                height: 51px;
+                background: #E9E9E9;
+                border-radius: 5px;
+                border: 0px;
+                margin-right: 7px;
+            }
+
+            &-line {
+                width: 51px;
+                height: 51px;
+                background: #FFFFFF;
+                border-radius: 5px;
+                border: 0px;
+            }
+        }
+    }
+}
