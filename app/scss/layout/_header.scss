@@ -8,6 +8,11 @@
         padding: 18px 0px 27px 25px;
     }
 
+    &-product {
+        padding: 22px 44px 27px 46px;
+
+    }
+
     &__logo {
         margin-right: 43px;
         transform: translateY(-4px);
@@ -37,14 +42,20 @@
         @include font-montserrat-semibold ();
         margin-left: 12px;
 
+        &-product {
+            color: #252B42;
+        }
+
         @include screen-max ($md) {
             display: none;
         }
+        
     }
 
     &-favorites {
         @include screen-max ($sm) {
             display: none;
+            
         }
     }
 

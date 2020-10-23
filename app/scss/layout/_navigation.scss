@@ -1,9 +1,14 @@
 .navigation {
+
     &__item {
         @include font-montserrat-semibold ();
 
         &:not(:last-child) {
             margin-right: 41px;
+        }
+        
+        &-product {
+            color: #737373;
         }
 
         &--none {
@@ -12,7 +17,6 @@
             }
         }
     }
-
 
 
     &-footer--adaptive {

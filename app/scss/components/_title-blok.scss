@@ -11,6 +11,14 @@
         }
     }
 
+    &__product {
+        background-image: url(../images/product-image-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
     &__name {
         @include font-montserrat-bold;
 
