@@ -33,6 +33,9 @@
             align-items: center;
 
             &-table {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 width: 53px;
                 height: 51px;
                 background: #E9E9E9;
@@ -42,6 +45,9 @@
             }
 
             &-line {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 width: 51px;
                 height: 51px;
                 background: #FFFFFF;
