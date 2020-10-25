@@ -56,8 +56,22 @@
 
         &-things {
 
+            position: relative;
+            width: 100%;
+
             &:not(:last-child) {
                 margin-bottom: 22px;
+            }
+
+            & > input {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+
+                &:checked ~ .product-sidebar-things-list{
+                    display: flex;
+                }
             }
 
             &-button {
@@ -67,11 +81,6 @@
                 border: 0px;
                 width: 100%;
 
-                &:checked ~ {
-                    .product-sidebar-things-list {
-                        display: flex;
-                    }
-                }
 
             &-text {
                 @include font-montserrat-bold ;
@@ -98,6 +107,8 @@
                 padding-bottom: 12px;
                 border-bottom: 1px solid #E4E4E4;
                 display: none;
+                transition: all .2s ease-out;
+
 
                 &__elem {
                     @include font-montserrat-semibold;
@@ -224,63 +235,4 @@
             }
         }
     }
-}
-
-
-
-
-.dropdown {
-  position: relative;
-  width: 162px;
-
-    input {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-    }
-
-  input:checked {
-    width: 100vw;
-    height: 100vh;
-    
-    & ~ .dropdown__menu {
-            padding: 10px;
-            border-color: rgb(85, 81, 81);
-            height: 160px;
-          }
-  }
-}
-
-.dropdown__menu {
-  width: 250px;
-  z-index: 3;
-  background: #ffffff;
-  border: 1px solid transparent;
-  position: absolute;
-  top: calc(100% + 10px);
-  overflow: hidden;
-  padding: 0;
-  left: 0;
-  height: 0;
-  transition: all .2s ease-out;
-  
-  &-item {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-}
-
-.dropdown__control {
-  background: #FFFFFF;
-  border: 1px solid #DCDCDC;
-  box-sizing: border-box;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  font-size: 15px;
-  width: 162px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
