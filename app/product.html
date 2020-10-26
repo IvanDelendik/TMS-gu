@@ -115,16 +115,32 @@
         <div class="product-sidebar-menu">
           <div class="product-sidebar-things">
             <input id="product-sidebar-things-input" type="checkbox" />
-            <div class="product-sidebar-things-button">
+            <button class="product-sidebar-things-button">
               <span class="product-sidebar-things-button-text">
                 Accessories
               </span>
-              <img
-                src="../images/plus.svg"
-                alt="plus"
+              <svg
                 class="product-sidebar-things-button-img"
-              />
-            </div>
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0)">
+                  <rect width="25" height="25" rx="12.5" fill="#F1F1F1" />
+                  <path
+                    d="M16.416 11.6H13.584V8.8H11.872V11.6H9.04V13.2H11.872V16H13.584V13.2H16.416V11.6Z"
+                    fill="#BDBDBD"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect width="25" height="25" rx="12.5" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
             <div class="product-sidebar-things-list">
               <a href="" class="product-sidebar-things-list__elem"> View All</a>
               <a href="" class="product-sidebar-things-list__elem"> Bags</a>
@@ -388,7 +404,7 @@
       <section class="product-catalog">
         <div class="product-list">
           <span class="product-list-text">Sort by :</span>
-          <select name="" id="" class="product-list-select">
+          <select name="" class="product-list-select">
             <option>Popularity</option>
             <option>Sale</option>
             <option>New</option>
