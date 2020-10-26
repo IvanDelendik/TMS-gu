@@ -17,7 +17,6 @@
         &-select {
             width: 162px;
             padding: 17px 20px;
-            background: #FFFFFF;
             border: 1px solid #DCDCDC;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
@@ -27,7 +26,7 @@
             letter-spacing: 0.1px;
             color: #252B42;
             appearance: none;
-            background: url('/images/dropdown_line.svg') no-repeat right 20px center;
+            background: url('/images/dropdown_line.svg') #FFFFFF no-repeat right 20px center;
         }
 
         &-display {
@@ -35,7 +34,7 @@
             display: flex;
             align-items: center;
 
-            &-table {
+            &__elem {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -44,25 +43,13 @@
                 background: #E9E9E9;
                 border-radius: 5px;
                 border: 0px;
-                margin-right: 7px;
 
-                &-large {
+                &--active {
                     background: #FFFFFF;
                 }
-            }
 
-            &-line {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 51px;
-                height: 51px;
-                background: #FFFFFF;
-                border-radius: 5px;
-                border: 0px;
-
-                &-large {
-                    background: #E9E9E9;
+                &:not(:last-child) {
+                    margin-right: 7px;
                 }
             }
         }
