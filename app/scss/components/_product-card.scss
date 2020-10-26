@@ -211,5 +211,38 @@
                     line-height: 28px;
                 }
             }
+
+
+            &-large {
+                grid-row-gap: 10px;
+                grid-template-columns: 1fr;
+
+                &__blok {
+                    max-width: 294px;
+                }
+    
+                &-img {
+                    height: 180px;
+    
+                    &__elem {
+                        border-radius: 0px;
+                        object-fit: cover;
+                    }
+                }
+                
+                &-box {
+                    @include font-montserrat-bold;
+                    color: #252B42;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+    
+                &__price {
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+            }
         }
 }
